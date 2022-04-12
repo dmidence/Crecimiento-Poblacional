@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    overflow-x: hidden;
+}
+
+.main-container{
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calc-section{
+    transition: all .3s;
+}
+.calc-section:hover{
+    cursor: pointer;
+    transform: scale(1.01);
+    box-shadow: 1px 1px 5px gray;
+}
+
+.canvas{
+    width: 100%;
+    height: 100%;
+}
